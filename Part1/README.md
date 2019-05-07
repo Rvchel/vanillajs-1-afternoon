@@ -271,6 +271,8 @@ function play(clickedId) {
     clickedElement.innerText = 'O';
     board[clickedId] = 'O';
   }
+
+  }
   console.log(board);
 
   const topLeft = board[0];
